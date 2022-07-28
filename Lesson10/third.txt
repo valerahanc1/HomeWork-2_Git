@@ -1,0 +1,13 @@
+subnet mask - 255.255.255.192
+
+Nomer pod seti1 = 212.100.54.0/26 - adresa hostov 212.100.54.1-212.100.54.62
+
+Nomer pod seti2 = 212.100.54.64/26 - adresa hostov 212.100.54.65-212.100.54.126
+
+Nomer pod seti3 = 212.100.54.128/26 - adresa hostov 212.100.54.129-212.100.54.190
+
+Nomer pod seti4 = 212.100.54.192/26 - adresa hostov 212.100.54.65-212.100.54.126
+
+
+
+
