@@ -12,7 +12,7 @@ pipeline {
             steps {
                 sh   "cd Lesson7/"
 		sh   "ls -la"
-                sh   "./status.sh"
+                sh   "./Lesson7/status.sh"
             } 
         }
     }
