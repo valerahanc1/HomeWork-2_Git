@@ -11,6 +11,7 @@ pipeline {
         stage('Testing') {
             steps {
                 sh   "cd Lesson7/"
+		sh   "ls -la"
                 sh   "./status.sh"
             } 
         }
