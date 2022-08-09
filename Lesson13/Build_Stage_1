@@ -1,0 +1,20 @@
+object Build : BuildType({ this: BuildType
+	name = "Build_Stage_1"
+	description = "test"
+	vcs { this: VcsSettings
+		root(DslContext.settingsRoot)
+	}
+
+	id( id: "Build_Stage_1")
+
+	steps {
+	  name = "Set Lesson5 scripts"
+	  scriptContent = """
+	    cd Lesson5
+	    sh ./script1.sh
+	    sh ./script2.sh
+	    sh ./script3.sh
+	    """.trimIndent()
+	}
+     }	
+

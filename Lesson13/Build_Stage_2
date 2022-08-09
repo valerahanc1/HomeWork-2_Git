@@ -1,0 +1,30 @@
+object Build : BuildType({ this: BuildType
+        name = "Build_Stage_1"
+        description = "test"
+        vcs { this: VcsSettings
+                root(DslContext.settingsRoot)
+        }
+
+        id( id: "Build_Stage_1")
+
+        steps {
+          name = "Set Lesson5 scripts"
+          scriptContent = """
+            cd Lesson5
+            sh ./script1.sh
+            sh ./script2.sh
+            sh ./script3.sh
+            """.trimIndent()
+        }
+	script {
+         name = "Build_Stage_2"
+         scriptContent = """
+         cd Lesson6
+	 sh ./script1.sh
+	 sh ./script2.sh
+ 	 sh ./script3.sh
+	 sh ./script4.sh
+      echo "built artifact" > bin/compiled.txt
+      """.trimIndent()
+  } 
+     }
