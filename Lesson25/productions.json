@@ -1,0 +1,14 @@
+{
+    "_id" : ObjectId("507d95d5719dbef170f15bfd"),
+    "name" : "AC3 Case Red",
+    "type" : [
+        "accessory",
+        "case"
+    ],
+    "color" : "red",
+    "price" : NumberInt(12),
+    "rating" : NumberInt(4),
+    "warranty_years" : 0.25,
+    "available" : true,
+    "for" : "ac3"
+}

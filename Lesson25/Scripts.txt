@@ -1,0 +1,17 @@
+Scripts:
+
+db.getCollection("companies").find({founded_year : {$gte : 2000, $lte: 2002}})
+
+db.getCollection("students").find({name: /^Sa/",scores.score: {$gt: 60}})
+
+db.getCollection("products").find({available: true, rating: {$gte: 4}})
+
+--------------------------------------------------------------------------
+
+Aggregation:
+
+{
+  _id: "$author",
+  authors: {$addToSet: "$authors"
+  }
+}

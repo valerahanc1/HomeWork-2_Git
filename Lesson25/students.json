@@ -1,0 +1,126 @@
+{
+    "_id" : NumberInt(7),
+    "name" : "Salena Olmos",
+    "scores" : [
+        {
+            "score" : 90.37826509157176,
+            "type" : "exam"
+        },
+        {
+            "score" : 42.48780666956811,
+            "type" : "quiz"
+        },
+        {
+            "score" : 96.52986171633331,
+            "type" : "homework"
+        }
+    ]
+}
+{
+    "_id" : NumberInt(9),
+    "name" : "Sanda Ryba",
+    "scores" : [
+        {
+            "score" : 97.00509953654694,
+            "type" : "exam"
+        },
+        {
+            "score" : 97.80449632538915,
+            "type" : "quiz"
+        },
+        {
+            "score" : 25.27368532432955,
+            "type" : "homework"
+        }
+    ]
+}
+{
+    "_id" : NumberInt(33),
+    "name" : "Sadie Jernigan",
+    "scores" : [
+        {
+            "score" : 73.15861249943812,
+            "type" : "exam"
+        },
+        {
+            "score" : 2.987718065941702,
+            "type" : "quiz"
+        },
+        {
+            "score" : 82.54104198590488,
+            "type" : "homework"
+        }
+    ]
+}
+{
+    "_id" : NumberInt(82),
+    "name" : "Santiago Dollins",
+    "scores" : [
+        {
+            "score" : 33.48242310776701,
+            "type" : "exam"
+        },
+        {
+            "score" : 60.49199094204558,
+            "type" : "quiz"
+        },
+        {
+            "score" : 87.02564768982076,
+            "type" : "homework"
+        }
+    ]
+}
+{
+    "_id" : NumberInt(121),
+    "name" : "Salena Olmos",
+    "scores" : [
+        {
+            "score" : 0.8007809823509016,
+            "type" : "exam"
+        },
+        {
+            "score" : 44.71135559183793,
+            "type" : "quiz"
+        },
+        {
+            "score" : 65.17342981800904,
+            "type" : "homework"
+        }
+    ]
+}
+{
+    "_id" : NumberInt(147),
+    "name" : "Sadie Jernigan",
+    "scores" : [
+        {
+            "score" : 6.14281392478545,
+            "type" : "exam"
+        },
+        {
+            "score" : 44.94102013771302,
+            "type" : "quiz"
+        },
+        {
+            "score" : 89.94407975401369,
+            "type" : "homework"
+        }
+    ]
+}
+{
+    "_id" : NumberInt(196),
+    "name" : "Santiago Dollins",
+    "scores" : [
+        {
+            "score" : 52.04052571137036,
+            "type" : "exam"
+        },
+        {
+            "score" : 33.63300076481705,
+            "type" : "quiz"
+        },
+        {
+            "score" : 78.79257377604428,
+            "type" : "homework"
+        }
+    ]
+}
